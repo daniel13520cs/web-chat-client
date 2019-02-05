@@ -4,7 +4,8 @@ const AppConfig = {
     // TODO: change to localhost if you wish to run it locally
     //HOST: "//serene-wave-94653.herokuapp.com",
     HOST: "//web-chat-server.herokuapp.com/",
-    PORT: ":9000"
+    PORT: ":9000",
+    StockAPIKey : "JFeafjpeij"//AlphaVantage Stock API Key
 }
 
 const Singleton = (function () {

@@ -9,6 +9,12 @@
 # production
 /build
 
+#DS_STORE
+*.DS_STORE
+
+#folder
+mongo-db/
+
 # misc
 .DS_Store
 .env.local

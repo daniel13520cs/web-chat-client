@@ -6,6 +6,7 @@
   "dependencies": {
     "material-ui": "^0.19.4",
     "material-ui-icons": "^1.0.0-beta.17",
+    "mongodb": "^3.1.13",
     "react": "^16.1.1",
     "react-dom": "^16.1.1",
     "react-redux": "^5.0.6",
@@ -18,7 +19,8 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build",
+    "mongo-mac": "mongod --dbpath mongo-db"
   },
   "devDependencies": {
     "gh-pages": "^2.0.1"
